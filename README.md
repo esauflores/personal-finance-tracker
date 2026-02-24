@@ -2,6 +2,8 @@
 
 React web application to track personal finances, and get insights about them.
 
+📚 **[Documentation](https://outline.fastwaydata.com/s/4a91b8c1-4f1c-4261-9bbf-734e6fecfdec)**
+
 ## Tech Stack
 
 - **Framework:** React + TypeScript
@@ -12,11 +14,10 @@ React web application to track personal finances, and get insights about them.
 - **Storage:** localStorage
 - **Linting:** ESLint + Prettier
 
-## Features
-
 ## Planned Features
 
 ### Core
+
 - [ ] Add transaction (amount, category, date, note)
 - [ ] List transactions
 - [ ] Delete transaction
@@ -25,6 +26,7 @@ React web application to track personal finances, and get insights about them.
 - [ ] Monthly spending calendar view
 
 ### Insights & Analytics
+
 - [ ] Month-over-month spending comparison
 - [ ] Anomaly detection ("Unusual spending in Food this week")
 - [ ] Spending trend predictions
