@@ -18,10 +18,10 @@ React web application to track personal finances, and get insights about them.
 
 ### Core
 
-- [ ] Add transaction (amount, category, date, note)
-- [ ] List transactions
-- [ ] Delete transaction
-- [ ] Persistent storage (localStorage)
+- [x] Add transaction (amount, category, date, note)
+- [x] List transactions
+- [x] Delete transaction
+- [x] Persistent storage (localStorage)
 - [ ] Spending by category (pie chart)
 - [ ] Monthly spending calendar view
 
