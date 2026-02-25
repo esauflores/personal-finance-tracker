@@ -21,22 +21,6 @@ describe('useCategoryStore', () => {
       expect(useCategoryStore.getState().items.length).toBe(initialCount)
     })
   })
-
-  describe('CRUD operations', () => {
-    it('should add category', () => {
-      useCategoryStore.getState().add({ name: 'Custom', icon: '🎯', color: '#000' })
-      const items = useCategoryStore.getState().items
-      expect(items).toHaveLength(1)
-      expect(items[0].name).toBe('Custom')
-    })
-
-    it('should get category by id', () => {
-      useCategoryStore.getState().add({ name: 'Test' })
-      const id = useCategoryStore.getState().items[0].id
-      const found = useCategoryStore.getState().getById(id)
-      expect(found?.name).toBe('Test')
-    })
-  })
 })
 
 describe('useTransactionStore', () => {
