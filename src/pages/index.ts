@@ -1,1 +1,1 @@
-export { RootPage } from './RootPage'
+export { TransactionsPage } from './TransactionsPage.tsx'
