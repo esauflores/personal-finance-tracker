@@ -90,7 +90,6 @@ This project follows the Conventional Commits specification. The commit message 
 
 ```
 <type>(<scope>): <description>
-
 ```
 
 Types:
