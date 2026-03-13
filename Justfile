@@ -11,6 +11,11 @@ setup:
   pnpm install
   @just setup-hooks
 
+format:
+  pnpm format
+
 check:
   pnpm lint && pnpm test
 
+dev:
+  pnpm dev
