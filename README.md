@@ -2,6 +2,16 @@
 
 Personal Finance Tracker as a web application
 
+## Features
+
+### Core
+
+- [x] Add transaction (amount, category, date, note)
+- [x] List transactions
+- [ ] Delete transaction
+- [ ] Spending by category (pie chart)
+- [ ] Monthly spending calendar view
+
 ## Tech Stack
 
 ### Core
