@@ -1,4 +1,12 @@
 {
   "$schema": "https://unpkg.com/knip@5/schema.json",
-  "tags": ["-lintignore"]
+  "tags": ["-lintignore"],
+  "ignoreDependencies": [
+    "class-variance-authority",
+    "clsx",
+    "lucide-react",
+    "radix-ui",
+    "tailwind-merge"
+  ],
+  "ignoreFiles": ["src/shared/components/ui/**", "src/shared/lib/utils.ts"]
 }

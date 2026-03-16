@@ -71,4 +71,12 @@ export default defineConfig([
       ],
     },
   },
+  {
+    // Overrides for shadcn
+    files: ['src/shared/components/**/*.tsx'],
+    rules: {
+      '@typescript-eslint/explicit-function-return-type': 'off',
+      'react-refresh/only-export-components': 'off',
+    },
+  },
 ])

@@ -2,6 +2,8 @@ import { StrictMode } from 'react'
 
 import { createRoot } from 'react-dom/client'
 
+import '@/shared/styles/global.css'
+
 import { TransactionsPage } from '@/pages'
 
 const root = document.getElementById('root')
